@@ -1,0 +1,6 @@
+framework module Pods_Twitter_ui_challenge {
+  umbrella header "Pods-Twitter_ui_challenge-umbrella.h"
+
+  export *
+  module * { export * }
+}
