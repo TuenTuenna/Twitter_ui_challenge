@@ -33,7 +33,7 @@ struct TwitterNavBarItem: View, PagerTabViewDelegate {
                 .offset(y: 1)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.yellow)
+//        .background(Color.yellow)
     }
     
 //    func setState(state: PagerTabViewState) {

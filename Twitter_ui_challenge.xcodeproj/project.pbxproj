@@ -31,6 +31,8 @@
 		F2A6556D26EA4258004B2DB9 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = F2A6556C26EA4258004B2DB9 /* URLImage */; };
 		F2A6556F26EA4446004B2DB9 /* StickyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A6556E26EA4446004B2DB9 /* StickyHeaderView.swift */; };
 		F2A6557126EA49EE004B2DB9 /* LazyVStackTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A6557026EA49EE004B2DB9 /* LazyVStackTestView.swift */; };
+		F2A6557326EA51D1004B2DB9 /* StickyHeaderWithLazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A6557226EA51D1004B2DB9 /* StickyHeaderWithLazyVStack.swift */; };
+		F2A6557526EA53B2004B2DB9 /* LazyVStackMultiSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A6557426EA53B2004B2DB9 /* LazyVStackMultiSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		F2A6556726EA40A2004B2DB9 /* StickyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeader.swift; sourceTree = "<group>"; };
 		F2A6556E26EA4446004B2DB9 /* StickyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderView.swift; sourceTree = "<group>"; };
 		F2A6557026EA49EE004B2DB9 /* LazyVStackTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackTestView.swift; sourceTree = "<group>"; };
+		F2A6557226EA51D1004B2DB9 /* StickyHeaderWithLazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderWithLazyVStack.swift; sourceTree = "<group>"; };
+		F2A6557426EA53B2004B2DB9 /* LazyVStackMultiSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackMultiSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 				F2A6556526EA4015004B2DB9 /* StickyHeaderTestView.swift */,
 				F2A6556E26EA4446004B2DB9 /* StickyHeaderView.swift */,
 				F2A6557026EA49EE004B2DB9 /* LazyVStackTestView.swift */,
+				F2A6557226EA51D1004B2DB9 /* StickyHeaderWithLazyVStack.swift */,
+				F2A6557426EA53B2004B2DB9 /* LazyVStackMultiSectionView.swift */,
 				F2A6554926EA3297004B2DB9 /* TwitterNavBarItem.swift */,
 				F2A6553B26EA289F004B2DB9 /* Assets.xcassets */,
 				F2A6554026EA289F004B2DB9 /* Info.plist */,
@@ -313,10 +319,12 @@
 				F2A6556F26EA4446004B2DB9 /* StickyHeaderView.swift in Sources */,
 				F2A6555E26EA34D7004B2DB9 /* URLImageView.swift in Sources */,
 				F2A6555426EA33AE004B2DB9 /* Post.swift in Sources */,
+				F2A6557526EA53B2004B2DB9 /* LazyVStackMultiSectionView.swift in Sources */,
 				F2A6553A26EA289C004B2DB9 /* ContentView.swift in Sources */,
 				F2A6554A26EA3297004B2DB9 /* TwitterNavBarItem.swift in Sources */,
 				F2A6554F26EA335A004B2DB9 /* PostRow.swift in Sources */,
 				F2A6556826EA40A2004B2DB9 /* StickyHeader.swift in Sources */,
+				F2A6557326EA51D1004B2DB9 /* StickyHeaderWithLazyVStack.swift in Sources */,
 				F2A6555B26EA345E004B2DB9 /* User.swift in Sources */,
 				F2A6553826EA289C004B2DB9 /* Twitter_ui_challengeApp.swift in Sources */,
 			);

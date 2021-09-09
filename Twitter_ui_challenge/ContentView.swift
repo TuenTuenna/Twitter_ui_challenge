@@ -16,15 +16,15 @@ struct ContentView: View {
                }
             StickyHeaderTestView()
                .tabItem {
-                   Label("검색", systemImage: "magnifyingglass")
+                   Label("PagerTab", systemImage: "magnifyingglass")
                }
-            Text("알림")
+            StickyHeaderWithLazyVStack()
                 .tabItem {
-                    Label("알림", systemImage: "bell")
+                    Label("lazyVStack", systemImage: "bell")
                 }
-            Text("메일")
+            LazyVStackMultiSectionView()
                 .tabItem {
-                    Label("메일", systemImage: "envelope")
+                    Label("lazyVStackPinned", systemImage: "envelope")
                 }
        }
     }
