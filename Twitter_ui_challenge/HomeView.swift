@@ -28,7 +28,7 @@ struct HomeView: View {
                 TwitterNavBarItem(title: "1번 탭")
             }.onPageAppear {
                 tweetsModel.isLoading = true
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     tweetsModel.isLoading = false
                 }
             }
@@ -37,7 +37,7 @@ struct HomeView: View {
                 TwitterNavBarItem(title: "2번 탭")
             }.onPageAppear {
                 tweetsModel.isLoading = true
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     tweetsModel.isLoading = false
                 }
             }
@@ -46,7 +46,7 @@ struct HomeView: View {
                 TwitterNavBarItem(title: "3번 탭")
             }.onPageAppear {
                 tweetsModel.isLoading = true
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     tweetsModel.isLoading = false
                 }
             }
@@ -55,7 +55,7 @@ struct HomeView: View {
                 TwitterNavBarItem(title: "4번 탭")
             }.onPageAppear {
                 tweetsModel.isLoading = true
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     tweetsModel.isLoading = false
                 }
             }
@@ -64,7 +64,7 @@ struct HomeView: View {
                 TwitterNavBarItem(title: "5번 탭")
             }.onPageAppear {
                 tweetsModel.isLoading = true
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     tweetsModel.isLoading = false
                 }
             }

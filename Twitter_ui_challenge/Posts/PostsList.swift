@@ -21,14 +21,16 @@ struct PostsList: View {
     
     
     var body: some View {
-        VStack {
-            if isLoading {
-                ProgressView()
-                    .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
-            }
-            ForEach(items) { item in
-                NavigationLink(destination: PostDetail(post: item)){
-                    PostRow(post: item, withDescription: withDescription)
+        ScrollView{
+            VStack {
+                if isLoading {
+                    ProgressView()
+                        .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
+                }
+                ForEach(items) { item in
+                    NavigationLink(destination: PostDetail(post: item)){
+                        PostRow(post: item, withDescription: withDescription)
+                    }
                 }
             }
         }

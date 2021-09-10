@@ -33,6 +33,10 @@
 		F2A6557126EA49EE004B2DB9 /* LazyVStackTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A6557026EA49EE004B2DB9 /* LazyVStackTestView.swift */; };
 		F2A6557326EA51D1004B2DB9 /* StickyHeaderWithLazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A6557226EA51D1004B2DB9 /* StickyHeaderWithLazyVStack.swift */; };
 		F2A6557526EA53B2004B2DB9 /* LazyVStackMultiSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A6557426EA53B2004B2DB9 /* LazyVStackMultiSectionView.swift */; };
+		F2B1861726EB5301002B76CA /* StickyHeaderWithForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1861626EB5301002B76CA /* StickyHeaderWithForEachView.swift */; };
+		F2B1861A26EB5423002B76CA /* BannerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1861926EB5423002B76CA /* BannerData.swift */; };
+		F2B1861C26EB547E002B76CA /* PagingBannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1861B26EB547E002B76CA /* PagingBannerViewModel.swift */; };
+		F2B1862026EB6E52002B76CA /* MatchedGeometryEffectTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1861F26EB6E52002B76CA /* MatchedGeometryEffectTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,10 @@
 		F2A6557026EA49EE004B2DB9 /* LazyVStackTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackTestView.swift; sourceTree = "<group>"; };
 		F2A6557226EA51D1004B2DB9 /* StickyHeaderWithLazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderWithLazyVStack.swift; sourceTree = "<group>"; };
 		F2A6557426EA53B2004B2DB9 /* LazyVStackMultiSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackMultiSectionView.swift; sourceTree = "<group>"; };
+		F2B1861626EB5301002B76CA /* StickyHeaderWithForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderWithForEachView.swift; sourceTree = "<group>"; };
+		F2B1861926EB5423002B76CA /* BannerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerData.swift; sourceTree = "<group>"; };
+		F2B1861B26EB547E002B76CA /* PagingBannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingBannerViewModel.swift; sourceTree = "<group>"; };
+		F2B1861F26EB6E52002B76CA /* MatchedGeometryEffectTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,7 @@
 		F2A6553626EA289C004B2DB9 /* Twitter_ui_challenge */ = {
 			isa = PBXGroup;
 			children = (
+				F2B1861826EB5410002B76CA /* PagingBanner */,
 				F2A6555C26EA34C3004B2DB9 /* URLImage */,
 				F2A6555726EA33E7004B2DB9 /* Resources */,
 				F2A6555226EA33A5004B2DB9 /* Model */,
@@ -129,9 +138,11 @@
 				F2A6556526EA4015004B2DB9 /* StickyHeaderTestView.swift */,
 				F2A6556E26EA4446004B2DB9 /* StickyHeaderView.swift */,
 				F2A6557026EA49EE004B2DB9 /* LazyVStackTestView.swift */,
+				F2B1861626EB5301002B76CA /* StickyHeaderWithForEachView.swift */,
 				F2A6557226EA51D1004B2DB9 /* StickyHeaderWithLazyVStack.swift */,
 				F2A6557426EA53B2004B2DB9 /* LazyVStackMultiSectionView.swift */,
 				F2A6554926EA3297004B2DB9 /* TwitterNavBarItem.swift */,
+				F2B1861F26EB6E52002B76CA /* MatchedGeometryEffectTestView.swift */,
 				F2A6553B26EA289F004B2DB9 /* Assets.xcassets */,
 				F2A6554026EA289F004B2DB9 /* Info.plist */,
 				F2A6553D26EA289F004B2DB9 /* Preview Content */,
@@ -184,6 +195,15 @@
 				F2A6556126EA34FB004B2DB9 /* ImageCache.swift */,
 			);
 			path = URLImage;
+			sourceTree = "<group>";
+		};
+		F2B1861826EB5410002B76CA /* PagingBanner */ = {
+			isa = PBXGroup;
+			children = (
+				F2B1861926EB5423002B76CA /* BannerData.swift */,
+				F2B1861B26EB547E002B76CA /* PagingBannerViewModel.swift */,
+			);
+			path = PagingBanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,13 +328,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2A6555126EA336E004B2DB9 /* PostDetail.swift in Sources */,
+				F2B1861A26EB5423002B76CA /* BannerData.swift in Sources */,
 				F2A6556626EA4015004B2DB9 /* StickyHeaderTestView.swift in Sources */,
 				F2A6556226EA34FB004B2DB9 /* ImageCache.swift in Sources */,
 				F2A6556026EA34EC004B2DB9 /* URLImageModel.swift in Sources */,
 				F2A6557126EA49EE004B2DB9 /* LazyVStackTestView.swift in Sources */,
+				F2B1861C26EB547E002B76CA /* PagingBannerViewModel.swift in Sources */,
 				F2A6554826EA31CF004B2DB9 /* HomeView.swift in Sources */,
+				F2B1862026EB6E52002B76CA /* MatchedGeometryEffectTestView.swift in Sources */,
 				F2A6554D26EA334A004B2DB9 /* PostsList.swift in Sources */,
 				F2A6556426EA35AA004B2DB9 /* TweetsModel.swift in Sources */,
+				F2B1861726EB5301002B76CA /* StickyHeaderWithForEachView.swift in Sources */,
 				F2A6555626EA33C6004B2DB9 /* PostsFactory.swift in Sources */,
 				F2A6556F26EA4446004B2DB9 /* StickyHeaderView.swift in Sources */,
 				F2A6555E26EA34D7004B2DB9 /* URLImageView.swift in Sources */,

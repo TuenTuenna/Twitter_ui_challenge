@@ -14,7 +14,7 @@ struct ContentView: View {
                .tabItem {
                    Label("홈", systemImage: "house")
                }
-            StickyHeaderTestView()
+            StickyHeaderWithForEachView()
                .tabItem {
                    Label("PagerTab", systemImage: "magnifyingglass")
                }
@@ -25,6 +25,10 @@ struct ContentView: View {
             LazyVStackMultiSectionView()
                 .tabItem {
                     Label("lazyVStackPinned", systemImage: "envelope")
+                }
+            MatchedGeometryEffectTestView()
+                .tabItem {
+                    Label("test", systemImage: "paintbrush.fill")
                 }
        }
     }
